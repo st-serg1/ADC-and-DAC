@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ADC and DAC: Р¤Р°Р№Р» main.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="main.c"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">ADC and DAC
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- РЎРѕР·РґР°РЅРѕ СЃРёСЃС‚РµРјРѕР№ Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'РџРѕРёСЃРє');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','РџРѕРёСЃРє');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Р¤СѓРЅРєС†РёРё</a> &#124;
+<a href="#var-members">РџРµСЂРµРјРµРЅРЅС‹Рµ</a>  </div>
+  <div class="headertitle">
+<div class="title">Р¤Р°Р№Р» main.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Программа работы с АЦП и ЦАП  
+<a href="#details">РџРѕРґСЂРѕР±РЅРµРµ...</a></p>
+<div class="textblock"><code>#include &quot;main.h&quot;</code><br />
+<code>#include &quot;stm32f4xx_hal.h&quot;</code><br />
+<code>#include &quot;usb_device.h&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Р¤СѓРЅРєС†РёРё</h2></td></tr>
+<tr class="memitem:a70af21c671abfcc773614a9a4f63d920"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a70af21c671abfcc773614a9a4f63d920">SystemClock_Config</a> (void)</td></tr>
+<tr class="memdesc:a70af21c671abfcc773614a9a4f63d920"><td class="mdescLeft">&#160;</td><td class="mdescRight">System Clock Configuration.  <a href="#a70af21c671abfcc773614a9a4f63d920">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a70af21c671abfcc773614a9a4f63d920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38ad4725462bdc5e86c4ead4f04b9fc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a38ad4725462bdc5e86c4ead4f04b9fc2">TIM2_IRQHandler</a> (void)</td></tr>
+<tr class="memdesc:a38ad4725462bdc5e86c4ead4f04b9fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">обработчик прерывания TIM2  <a href="#a38ad4725462bdc5e86c4ead4f04b9fc2">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a38ad4725462bdc5e86c4ead4f04b9fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98cff83252098363b2dbca9608df964e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a98cff83252098363b2dbca9608df964e">TIM7_IRQHandler</a> (void)</td></tr>
+<tr class="memdesc:a98cff83252098363b2dbca9608df964e"><td class="mdescLeft">&#160;</td><td class="mdescRight">обработчик прерывания TIM7  <a href="#a98cff83252098363b2dbca9608df964e">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a98cff83252098363b2dbca9608df964e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
+<tr class="memdesc:a840291bc02cba5474a4cb46a9b9566fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application entry point.  <a href="#a840291bc02cba5474a4cb46a9b9566fe">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a829116a51f1db1a72ebd1120f60719d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a829116a51f1db1a72ebd1120f60719d5">_Error_Handler</a> (char *file, int line)</td></tr>
+<tr class="memdesc:a829116a51f1db1a72ebd1120f60719d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is executed in case of error occurrence.  <a href="#a829116a51f1db1a72ebd1120f60719d5">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a829116a51f1db1a72ebd1120f60719d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+РџРµСЂРµРјРµРЅРЅС‹Рµ</h2></td></tr>
+<tr class="memitem:a22b804736f5648d52f639b2647d4ed13"><td class="memItemLeft" align="right" valign="top">ADC_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a22b804736f5648d52f639b2647d4ed13">hadc1</a></td></tr>
+<tr class="separator:a22b804736f5648d52f639b2647d4ed13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c126854bb1813d31ab4776b21dcc51f"><td class="memItemLeft" align="right" valign="top">DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a1c126854bb1813d31ab4776b21dcc51f">hdma_adc1</a></td></tr>
+<tr class="separator:a1c126854bb1813d31ab4776b21dcc51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c80fd5510e2990a59a5c90d745c716c"><td class="memItemLeft" align="right" valign="top">TIM_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a2c80fd5510e2990a59a5c90d745c716c">htim2</a></td></tr>
+<tr class="separator:a2c80fd5510e2990a59a5c90d745c716c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb71bf3ee68e2a051fbeec6c3ab3012d"><td class="memItemLeft" align="right" valign="top">TIM_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#abb71bf3ee68e2a051fbeec6c3ab3012d">htim7</a></td></tr>
+<tr class="separator:abb71bf3ee68e2a051fbeec6c3ab3012d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d44728297464a08d38c2735cebebbcb"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a9d44728297464a08d38c2735cebebbcb">ADC_Data</a></td></tr>
+<tr class="memdesc:a9d44728297464a08d38c2735cebebbcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">переменная с результатами измерения  <a href="#a9d44728297464a08d38c2735cebebbcb">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a9d44728297464a08d38c2735cebebbcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f6b098dc121d00f74f3e7e2b2b35bb"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#af6f6b098dc121d00f74f3e7e2b2b35bb">summ_ADC_DATA</a> =0</td></tr>
+<tr class="memdesc:af6f6b098dc121d00f74f3e7e2b2b35bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">рабочая переменная для накапливания суммы результатов измерений  <a href="#af6f6b098dc121d00f74f3e7e2b2b35bb">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:af6f6b098dc121d00f74f3e7e2b2b35bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af735140bd99169a010349f48f905fdbd"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#af735140bd99169a010349f48f905fdbd">cnt_adc</a> =0</td></tr>
+<tr class="memdesc:af735140bd99169a010349f48f905fdbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">количество произведённых измерений  <a href="#af735140bd99169a010349f48f905fdbd">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:af735140bd99169a010349f48f905fdbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f06df258f74353da7fb3dc9d9bfd54f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a8f06df258f74353da7fb3dc9d9bfd54f">srednee</a></td></tr>
+<tr class="memdesc:a8f06df258f74353da7fb3dc9d9bfd54f"><td class="mdescLeft">&#160;</td><td class="mdescRight">расчитаное значение с АЦП  <a href="#a8f06df258f74353da7fb3dc9d9bfd54f">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:a8f06df258f74353da7fb3dc9d9bfd54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8c308071fb2d34a26754ec3434dec7b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#aa8c308071fb2d34a26754ec3434dec7b">sendData</a> =0</td></tr>
+<tr class="memdesc:aa8c308071fb2d34a26754ec3434dec7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">флаг на передачу значений  <a href="#aa8c308071fb2d34a26754ec3434dec7b">РџРѕРґСЂРѕР±РЅРµРµ...</a><br /></td></tr>
+<tr class="separator:aa8c308071fb2d34a26754ec3434dec7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">РџРѕРґСЂРѕР±РЅРѕРµ РѕРїРёСЃР°РЅРёРµ</h2>
+<div class="textblock"><p>Программа работы с АЦП и ЦАП </p>
+<p>1) Подключен виртуальный ком-порт 2) считаны значения с АЦП 3) переданы значение в ЦАП 4) переданы значение по SWD 5) среднее расчитан и передано </p>
+</div><h2 class="groupheader">Р¤СѓРЅРєС†РёРё</h2>
+<a id="a829116a51f1db1a72ebd1120f60719d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a829116a51f1db1a72ebd1120f60719d5">&#9670;&nbsp;</a></span>_Error_Handler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void _Error_Handler </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function is executed in case of error occurrence. </p>
+<dl class="params"><dt>РђСЂРіСѓРјРµРЅС‚С‹</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>The file name as string. </td></tr>
+    <tr><td class="paramname">line</td><td>The line in file as a number. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Р’РѕР·РІСЂР°С‰Р°РµРјС‹Рµ Р·РЅР°С‡РµРЅРёСЏ</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a840291bc02cba5474a4cb46a9b9566fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a840291bc02cba5474a4cb46a9b9566fe">&#9670;&nbsp;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The application entry point. </p>
+<dl class="retval"><dt>Р’РѕР·РІСЂР°С‰Р°РµРјС‹Рµ Р·РЅР°С‡РµРЅРёСЏ</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>стартуем таймера <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+ старт передачи данных с АЦП через DMA</p>
+<p>следующая строчка оставлена на случай передачи значений в ЦАП черех DMA с использованием HAL</p>
+<p>включаем ЦАП</p>
+<p>передача значени в ЦАП</p>
+<p>если взведён флаг</p>
+<p>формируем строку</p>
+<p>и передаём её через SWD</p>
+<p>и виртуальный COM-порт</p>
+<p>сбрасываем флаг </p>
+
+</div>
+</div>
+<a id="a70af21c671abfcc773614a9a4f63d920"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70af21c671abfcc773614a9a4f63d920">&#9670;&nbsp;</a></span>SystemClock_Config()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SystemClock_Config </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>System Clock Configuration. </p>
+<dl class="retval"><dt>Р’РѕР·РІСЂР°С‰Р°РµРјС‹Рµ Р·РЅР°С‡РµРЅРёСЏ</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Configure the main internal regulator output voltage</p>
+<p>Initializes the CPU, AHB and APB busses clocks</p>
+<p>Initializes the CPU, AHB and APB busses clocks</p>
+<p>Configure the Systick interrupt time</p>
+<p>Configure the Systick</p>
+
+</div>
+</div>
+<a id="a38ad4725462bdc5e86c4ead4f04b9fc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38ad4725462bdc5e86c4ead4f04b9fc2">&#9670;&nbsp;</a></span>TIM2_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TIM2_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>обработчик прерывания TIM2 </p>
+<dl class="retval"><dt>Р’РѕР·РІСЂР°С‰Р°РµРјС‹Рµ Р·РЅР°С‡РµРЅРёСЏ</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td>прерывания от таймера - есть тригер для АЦП</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>вынесено в <a class="el" href="main_8c.html" title="Программа работы с АЦП и ЦАП ">main.c</a> лишь для удобства так как проект небольшой </p>
+<p>накапливаем измеренные значения</p>
+<p>инкрементируем счёт измерений </p>
+
+</div>
+</div>
+<a id="a98cff83252098363b2dbca9608df964e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98cff83252098363b2dbca9608df964e">&#9670;&nbsp;</a></span>TIM7_IRQHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TIM7_IRQHandler </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>обработчик прерывания TIM7 </p>
+<dl class="retval"><dt>Р’РѕР·РІСЂР°С‰Р°РµРјС‹Рµ Р·РЅР°С‡РµРЅРёСЏ</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td>по прерыванию рассчитывается усреднённое значение и взводится флаг на отправку данных через COM и SWD</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>вынесено в <a class="el" href="main_8c.html" title="Программа работы с АЦП и ЦАП ">main.c</a> лишь для удобства так как проект небольшой </p>
+<p>при 4095 соответствующем 3.3В, то значение в мВ: </p>
+
+</div>
+</div>
+<h2 class="groupheader">РџРµСЂРµРјРµРЅРЅС‹Рµ</h2>
+<a id="a9d44728297464a08d38c2735cebebbcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d44728297464a08d38c2735cebebbcb">&#9670;&nbsp;</a></span>ADC_Data</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t ADC_Data</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>переменная с результатами измерения </p>
+
+</div>
+</div>
+<a id="af735140bd99169a010349f48f905fdbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af735140bd99169a010349f48f905fdbd">&#9670;&nbsp;</a></span>cnt_adc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t cnt_adc =0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>количество произведённых измерений </p>
+
+</div>
+</div>
+<a id="a22b804736f5648d52f639b2647d4ed13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22b804736f5648d52f639b2647d4ed13">&#9670;&nbsp;</a></span>hadc1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ADC_HandleTypeDef hadc1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c126854bb1813d31ab4776b21dcc51f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c126854bb1813d31ab4776b21dcc51f">&#9670;&nbsp;</a></span>hdma_adc1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DMA_HandleTypeDef hdma_adc1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c80fd5510e2990a59a5c90d745c716c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c80fd5510e2990a59a5c90d745c716c">&#9670;&nbsp;</a></span>htim2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TIM_HandleTypeDef htim2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb71bf3ee68e2a051fbeec6c3ab3012d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb71bf3ee68e2a051fbeec6c3ab3012d">&#9670;&nbsp;</a></span>htim7</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TIM_HandleTypeDef htim7</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8c308071fb2d34a26754ec3434dec7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8c308071fb2d34a26754ec3434dec7b">&#9670;&nbsp;</a></span>sendData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t sendData =0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>флаг на передачу значений </p>
+
+</div>
+</div>
+<a id="a8f06df258f74353da7fb3dc9d9bfd54f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f06df258f74353da7fb3dc9d9bfd54f">&#9670;&nbsp;</a></span>srednee</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t srednee</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>расчитаное значение с АЦП </p>
+
+</div>
+</div>
+<a id="af6f6b098dc121d00f74f3e7e2b2b35bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6f6b098dc121d00f74f3e7e2b2b35bb">&#9670;&nbsp;</a></span>summ_ADC_DATA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t summ_ADC_DATA =0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>рабочая переменная для накапливания суммы результатов измерений </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+РЎРѕР·РґР°РЅРѕ СЃРёСЃС‚РµРјРѕР№ &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>
